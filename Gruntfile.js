@@ -303,7 +303,11 @@ module.exports = function (grunt) {
                     {
                         src: ["build/prod/index.html"],
                         dest: `build/prod/CyberChef_v${pkg.version}.html`
-                    }
+                    },
+                    {
+                        src: "robots.txt",
+                        dest: "build/prod/robots.txt"
+                    },
                 ]
             }
         },
